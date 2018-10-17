@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   namespace :api do
     get '/breakfast_cereals' => 'breakfast_cereals#index'
     get '/breakfast_cereals/:id' => 'breakfast_cereals#show'
+    post '/breakfast_cereals' => 'breakfast_cereals#create'
   end
 end
