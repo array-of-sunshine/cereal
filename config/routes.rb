@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     get '/breakfast_cereals' => 'breakfast_cereals#index'
     get '/breakfast_cereals/:id' => 'breakfast_cereals#show'
     post '/breakfast_cereals' => 'breakfast_cereals#create'
+    patch '/breakfast_cereals/:id' => 'breakfast_cereals#update'
+    delete '/breakfast_cereals/:id' => 'breakfast_cereals#destroy'
   end
 end
