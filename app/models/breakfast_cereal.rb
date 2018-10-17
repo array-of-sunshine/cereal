@@ -1,0 +1,2 @@
+class BreakfastCereal < ApplicationRecord
+end
